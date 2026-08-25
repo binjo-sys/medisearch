@@ -1,0 +1,13 @@
+name = "medisearch-binjo-api"
+main = "binjo.js"
+compatibility_date = "2026-08-25"
+
+# Secrets should be added with:
+# wrangler secret put OPENAI_API_KEY
+# wrangler secret put NCBI_EMAIL
+#
+# Optional:
+# wrangler secret put BINJO_ALLOWED_ORIGIN
+#
+# Optional model variable can be configured here or as a Worker variable:
+# BINJO_MODEL
