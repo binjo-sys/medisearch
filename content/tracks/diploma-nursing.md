@@ -18,22 +18,24 @@ MediSearch learning track for diploma-level nursing students in Kenya.
 - Nursing ethics, communication and professionalism
 - Examination and licensing revision
 
-## Note format
-Each topic should eventually contain:
-1. Definition / key concept
-2. Causes or risk factors where applicable
-3. Pathophysiology
-4. Signs and symptoms
-5. Investigations
-6. Medical management overview
-7. Nursing assessment
-8. Nursing interventions and rationales
-9. Patient education
-10. Complications
-11. Related NCLEX / nursing questions
-12. References
+## Topic structure
+Every major note should eventually contain:
+1. Learning objectives
+2. Definition / key concept
+3. Causes or risk factors where applicable
+4. Pathophysiology
+5. Signs and symptoms
+6. Investigations
+7. Medical management overview
+8. Nursing assessment
+9. Nursing interventions and rationales
+10. Patient education
+11. Complications / red flags
+12. Related nursing questions
+13. References and source dates
+
+## Diploma focus
+Use clear, practical, exam-oriented explanations. Nursing actions should be prominent and written at diploma-appropriate depth, while avoiding unsupported claims about individual patient treatment.
 
 ## Kenya source note
-Nursing Council of Kenya publishes separate minimum entry pathways for diploma and degree nursing and oversees indexing and professional competence requirements. Current programme details should be checked against NCK and the student's institution before publication.
-
-Source: https://nckenya.com/indexing/
+Nursing Council of Kenya publishes separate diploma and degree pathways and oversees professional indexing/competence requirements. Current programme details should always be checked against NCK and the learner's institution.
