@@ -1,0 +1,8 @@
+name = "medisearch-pubmed-api"
+main = "pubmed-search.js"
+compatibility_date = "2026-08-25"
+
+[vars]
+NCBI_TOOL = "MediSearch"
+# Set NCBI_EMAIL with a real registered developer/organization email using:
+# wrangler secret put NCBI_EMAIL
