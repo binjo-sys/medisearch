@@ -6,9 +6,17 @@
   "vars": {
     "MPESA_SHORTCODE": "4225582",
     "MPESA_TRANSACTION_TYPE": "CustomerPayBillOnline",
-    "MPESA_BASE_URL": "https://sandbox.safaricom.co.ke"
+    "MPESA_BASE_URL": "https://sandbox.safaricom.co.ke",
+    "MPESA_AMOUNT": "10",
+    "MPESA_ACCOUNT_REFERENCE": "BINJO",
+    "MPESA_TRANSACTION_DESC": "BINJO M-Pesa payment"
   },
   "secrets": {
-    "required": ["MPESA_CONSUMER_KEY", "MPESA_CONSUMER_SECRET", "MPESA_PASSKEY", "MPESA_CALLBACK_URL"]
+    "required": [
+      "MPESA_CONSUMER_KEY",
+      "MPESA_CONSUMER_SECRET",
+      "MPESA_PASSKEY",
+      "MPESA_CALLBACK_URL"
+    ]
   }
 }
