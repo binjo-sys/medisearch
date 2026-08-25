@@ -1,0 +1,14 @@
+{
+  "$schema": "https://developers.cloudflare.com/workers/wrangler/config-schema.json",
+  "name": "binjo-mpesa",
+  "main": "worker/index.js",
+  "compatibility_date": "2026-08-25",
+  "vars": {
+    "MPESA_SHORTCODE": "4225582",
+    "MPESA_TRANSACTION_TYPE": "CustomerPayBillOnline",
+    "MPESA_BASE_URL": "https://sandbox.safaricom.co.ke"
+  },
+  "secrets": {
+    "required": ["MPESA_CONSUMER_KEY", "MPESA_CONSUMER_SECRET", "MPESA_PASSKEY", "MPESA_CALLBACK_URL"]
+  }
+}
