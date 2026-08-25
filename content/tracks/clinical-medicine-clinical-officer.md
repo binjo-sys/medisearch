@@ -25,23 +25,25 @@ MediSearch learning track for Diploma Clinical Medicine and Surgery and Clinical
 - Clinical case presentations and OSCE-style practice
 
 ## Clinical note format
-1. Presenting complaint / history
-2. Differential diagnosis
-3. Risk factors and causes
-4. Focused examination
-5. Investigations
-6. Interpretation of key results
-7. Working diagnosis
-8. Management plan
-9. Referral / escalation criteria
-10. Follow-up and prevention
-11. Clinical case questions
-12. References
+1. Learning objectives
+2. Presenting complaint / history
+3. Differential diagnosis
+4. Causes and risk factors
+5. Focused examination
+6. Investigations
+7. Interpretation of key results
+8. Working diagnosis
+9. Management plan overview
+10. Referral / escalation criteria
+11. Follow-up and prevention
+12. Clinical case questions
+13. References and source dates
+
+## Clinical reasoning emphasis
+MediSearch should teach the learner to move from history → examination → problem list → differential diagnoses → targeted investigations → diagnosis → management → monitoring → referral/follow-up.
 
 ## Specialty extension
-The KMTC academic programmes booklet lists Higher Diploma clinical medicine specialties including anaesthesia, ENT/head and neck surgery, nephrology, mental health and psychiatry, chest medicine, dermatology and venereology, emergency and critical care medicine, and oncology and palliative care, among others. These can become dedicated specialty note tracks.
+KMTC currently lists Higher Diploma clinical medicine pathways including anaesthesia, ENT/head and neck surgery, nephrology, mental health and psychiatry, chest medicine, dermatology and venereology, emergency and critical care medicine, and oncology and palliative care, among others. These can become dedicated specialty note tracks.
 
 ## Kenya source note
-KMTC currently lists Diploma in Clinical Medicine and Surgery as a 3-year programme and provides clinical medicine higher-diploma pathways. Programme requirements and availability should be checked against the current KMTC catalogue and regulator information.
-
-Source: https://www.kmtc.ac.ke/phocadownloadpap/academic-docs/KMTC-Academic-Programmes-Booklet-16-Sep-2025-.pdf
+KMTC's current programme materials list Diploma in Clinical Medicine and Surgery as a 3-year programme and provide clinical-medicine higher-diploma pathways. Programme requirements and availability should be checked against the current KMTC catalogue and relevant regulator information.
