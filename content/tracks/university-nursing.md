@@ -28,20 +28,22 @@ MediSearch learning track for university nursing students.
 
 ## University-level note format
 Each topic should eventually contain:
-1. Core concept and definitions
-2. Scientific basis / physiology
-3. Pathophysiology
-4. Evidence-based assessment
-5. Diagnostics and interpretation
-6. Medical management overview
-7. Nursing management and prioritization
-8. Evidence-informed patient education
-9. Professional, ethical and leadership considerations
-10. Research/evidence appraisal where appropriate
-11. NCLEX and university-style questions
-12. References
+1. Learning objectives
+2. Core concept and definitions
+3. Scientific basis / physiology
+4. Pathophysiology
+5. Evidence-based assessment
+6. Diagnostics and interpretation
+7. Medical management overview
+8. Nursing management and prioritization
+9. Evidence-informed patient education
+10. Professional, ethical and leadership considerations
+11. Research / evidence appraisal where appropriate
+12. NCLEX and university-style questions
+13. References and source dates
+
+## University focus
+Go deeper than diploma notes: connect mechanisms to clinical findings, investigations to decisions, pharmacology to monitoring, and research evidence to practice.
 
 ## Kenya source note
 The University of Nairobi publishes a four-level BSc Nursing structure including basic sciences, medical-surgical nursing, family health, pediatric nursing, community health, mental health, obstetrics/midwifery/gynaecology, research, leadership and education. Other universities may structure units differently, so MediSearch should map each institution separately.
-
-Source: https://nursing.uonbi.ac.ke/node/155
