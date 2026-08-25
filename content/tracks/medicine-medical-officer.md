@@ -27,23 +27,24 @@ MediSearch learning track for medical students and Medical Officer-oriented clin
 - Ethics, professionalism and patient safety
 
 ## Medicine note format
-1. Definition / clinical problem
-2. Epidemiology where relevant
-3. Etiology and risk factors
-4. Pathophysiology
-5. Clinical presentation
-6. Differential diagnosis
-7. Investigations and interpretation
-8. Diagnosis / diagnostic criteria where applicable
-9. Management overview
-10. Emergency red flags and escalation
-11. Complications and prognosis
-12. Prevention and follow-up
-13. Clinical case / viva questions
-14. References
+1. Learning objectives
+2. Definition / clinical problem
+3. Epidemiology where relevant
+4. Etiology and risk factors
+5. Pathophysiology
+6. Clinical presentation
+7. Differential diagnosis
+8. Investigations and interpretation
+9. Diagnosis / diagnostic criteria where applicable
+10. Management overview
+11. Emergency red flags and escalation
+12. Complications and prognosis
+13. Prevention and follow-up
+14. Clinical case / viva questions
+15. References and source dates
 
 ## Medical Officer revision mode
-The future MO mode should emphasize clinical prioritization, emergency recognition, investigation interpretation, rational prescribing, referral decisions, case presentation and evidence-based management rather than merely memorizing definitions.
+Emphasize clinical prioritization, emergency recognition, interpretation of investigations, rational prescribing, referral decisions, case presentation and evidence-based management rather than memorizing definitions alone.
 
 ## Important boundary
-MediSearch is a learning platform. Its medical content must not be presented as individualized clinical orders or a replacement for local clinical protocols, supervising clinicians or current professional guidance.
+MediSearch is a learning platform. Medical content must not be presented as individualized clinical orders or as a replacement for local clinical protocols, supervising clinicians or current professional guidance.
