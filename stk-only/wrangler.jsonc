@@ -1,0 +1,21 @@
+{
+  "$schema": "https://developers.cloudflare.com/workers/wrangler/config-schema.json",
+  "name": "stk-only-mpesa",
+  "main": "index.js",
+  "compatibility_date": "2026-08-25",
+  "vars": {
+    "MPESA_BASE_URL": "https://sandbox.safaricom.co.ke",
+    "MPESA_TRANSACTION_TYPE": "CustomerPayBillOnline",
+    "MPESA_ACCOUNT_REFERENCE": "STK-PUSH",
+    "MPESA_TRANSACTION_DESC": "M-Pesa STK payment"
+  },
+  "secrets": {
+    "required": [
+      "MPESA_CONSUMER_KEY",
+      "MPESA_CONSUMER_SECRET",
+      "MPESA_SHORTCODE",
+      "MPESA_PASSKEY",
+      "MPESA_CALLBACK_URL"
+    ]
+  }
+}
