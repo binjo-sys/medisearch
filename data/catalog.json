@@ -1,0 +1,41 @@
+[
+  {
+    "id": "invaders-1912",
+    "title": "The Invaders",
+    "year": 1912,
+    "type": "movie",
+    "genre": "Action",
+    "description": "An American silent western film from the early cinema era.",
+    "duration": 3134,
+    "license": "Public domain in the United States",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:The_Invaders_(1912).webm",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Invaders_(1912).webm",
+    "mediaUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/0a/The_Invaders_%281912%29.webm/The_Invaders_%281912%29.webm.360p.vp9.webm"
+  },
+  {
+    "id": "blacksmith-scene-1893",
+    "title": "Blacksmith Scene",
+    "year": 1893,
+    "type": "movie",
+    "genre": "Classic",
+    "description": "One of the earliest surviving motion pictures.",
+    "duration": 28,
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Category:Videos_of_films_in_the_public_domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/Category:Videos_of_films_in_the_public_domain",
+    "mediaUrl": ""
+  },
+  {
+    "id": "out-west-1918",
+    "title": "Out West",
+    "year": 1918,
+    "type": "movie",
+    "genre": "Comedy",
+    "description": "A silent comedy featuring Fatty Arbuckle and Buster Keaton.",
+    "duration": 1178,
+    "license": "Public domain source listing",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Category:Videos_of_films_in_the_public_domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/Category:Videos_of_films_in_the_public_domain",
+    "mediaUrl": ""
+  }
+]
