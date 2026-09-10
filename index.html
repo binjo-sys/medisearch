@@ -11,7 +11,7 @@
 </head>
 <body>
 <header class="top"><nav class="nav"><div class="logo">MEDI<span>SEARCH</span></div><div class="links"><b>Home</b><span>Movies</span><span>Series</span><span>My List</span></div><input id="search" class="search" placeholder="Search movies & series…"></nav></header>
-<section class="hero"><div class="hero-inner"><div class="tag">FEATURED • FREE TO WATCH</div><h1>The world of cinema, in one place.</h1><div class="meta">Movies • Series • Independent films • Public-domain classics</div><p>Discover films and series that are legally available to watch for free. This is the new MEDISEARCH streaming experience.</p><div class="actions"><button class="primary" onclick="openTitle('Featured Film')">▶ Watch now</button><button class="secondary" onclick="scrollToCatalog()">Browse catalog</button></div></div></section>\main
+<section class="hero"><div class="hero-inner"><div class="tag">FEATURED • FREE TO WATCH</div><h1>The world of cinema, in one place.</h1><div class="meta">Movies • Series • Independent films • Public-domain classics</div><p>Discover films and series that are legally available to watch for free. This is the new MEDISEARCH streaming experience.</p><div class="actions"><button class="primary" onclick="openTitle('Featured Film')">▶ Watch now</button><button class="secondary" onclick="scrollToCatalog()">Browse catalog</button></div></div></section>
 <main class="wrap">
 <div class="section-head"><h2>Browse by genre</h2><small id="count"></small></div>
 <div class="chips" id="chips"><button class="chip active" data-genre="All">All</button><button class="chip" data-genre="Action">Action</button><button class="chip" data-genre="Drama">Drama</button><button class="chip" data-genre="Comedy">Comedy</button><button class="chip" data-genre="Horror">Horror</button><button class="chip" data-genre="Documentary">Documentary</button><button class="chip" data-genre="Classic">Classic</button></div>
@@ -23,21 +23,7 @@
 <footer class="footer">MEDISEARCH • Free & legal entertainment discovery</footer>
 <div id="modal" class="modal"><div class="dialog"><div class="player"><strong>▶</strong></div><div class="dialog-body"><button class="close" onclick="closeModal()">✕</button><div class="tag">NOW PLAYING</div><h2 id="modalTitle">Title</h2><p id="modalText" class="meta"></p><div class="notice">Streaming placeholder: connect this title to its official free/licensed video source before publishing playback.</div></div></div></div>
 <script>
-const titles=[
- {t:'The General',g:'Classic',y:'1926',d:'Comedy • Classic',b:'FREE'},
- {t:'Night of the Living Dead',g:'Horror',y:'1968',d:'Horror • Classic',b:'FREE'},
- {t:'His Girl Friday',g:'Comedy',y:'1940',d:'Comedy • Romance',b:'FREE'},
- {t:'Detour',g:'Drama',y:'1945',d:'Drama • Noir',b:'FREE'},
- {t:'D.O.A.',g:'Drama',y:'1950',d:'Crime • Mystery',b:'FREE'},
- {t:'The Stranger',g:'Drama',y:'1946',d:'Drama • Mystery',b:'FREE'},
- {t:'The Great Train Robbery',g:'Action',y:'1903',d:'Action • Classic',b:'FREE'},
- {t:'The House on Haunted Hill',g:'Horror',y:'1959',d:'Horror • Mystery',b:'FREE'},
- {t:'Plan 9 from Outer Space',g:'Classic',y:'1959',d:'Sci-Fi • Classic',b:'FREE'},
- {t:'Sherlock Jr.',g:'Comedy',y:'1924',d:'Comedy • Classic',b:'FREE'},
- {t:'Safety Last!',g:'Comedy',y:'1923',d:'Comedy • Classic',b:'FREE'},
- {t:'The Last Man on Earth',g:'Horror',y:'1964',d:'Horror • Sci-Fi',b:'FREE'}
-];
-let genre='All';
+const titles=[{t:'The General',g:'Classic',y:'1926',d:'Comedy • Classic',b:'FREE'},{t:'Night of the Living Dead',g:'Horror',y:'1968',d:'Horror • Classic',b:'FREE'},{t:'His Girl Friday',g:'Comedy',y:'1940',d:'Comedy • Romance',b:'FREE'},{t:'Detour',g:'Drama',y:'1945',d:'Drama • Noir',b:'FREE'},{t:'D.O.A.',g:'Drama',y:'1950',d:'Crime • Mystery',b:'FREE'},{t:'The Stranger',g:'Drama',y:'1946',d:'Drama • Mystery',b:'FREE'},{t:'The Great Train Robbery',g:'Action',y:'1903',d:'Action • Classic',b:'FREE'},{t:'The House on Haunted Hill',g:'Horror',y:'1959',d:'Horror • Mystery',b:'FREE'},{t:'Plan 9 from Outer Space',g:'Classic',y:'1959',d:'Sci-Fi • Classic',b:'FREE'},{t:'Sherlock Jr.',g:'Comedy',y:'1924',d:'Comedy • Classic',b:'FREE'},{t:'Safety Last!',g:'Comedy',y:'1923',d:'Comedy • Classic',b:'FREE'},{t:'The Last Man on Earth',g:'Horror',y:'1964',d:'Horror • Sci-Fi',b:'FREE'}];let genre='All';
 function render(){const q=document.getElementById('search').value.toLowerCase().trim();const list=titles.filter(x=>(genre==='All'||x.g===genre)&&(!q||x.t.toLowerCase().includes(q)||x.g.toLowerCase().includes(q)));document.getElementById('count').textContent=list.length+' titles';document.getElementById('empty').style.display=list.length?'none':'block';document.getElementById('grid').innerHTML=list.map(x=>`<article class="card" onclick="openTitle('${x.t.replace(/'/g,"\\'")}')"><div class="poster"><span class="badge">${x.b}</span><span class="play"></span></div><div class="title">${x.t}</div><div class="sub">${x.y} • ${x.d}</div></article>`).join('')}
 document.getElementById('search').addEventListener('input',render);document.querySelectorAll('.chip').forEach(c=>c.onclick=()=>{genre=c.dataset.genre;document.querySelectorAll('.chip').forEach(x=>x.classList.remove('active'));c.classList.add('active');render()});function openTitle(t){document.getElementById('modalTitle').textContent=t;document.getElementById('modalText').textContent='Free/legal catalog title • Select an official licensed source for playback.';document.getElementById('modal').classList.add('show')}function closeModal(){document.getElementById('modal').classList.remove('show')}function scrollToCatalog(){document.querySelector('.wrap').scrollIntoView({behavior:'smooth'})}document.getElementById('modal').onclick=e=>{if(e.target.id==='modal')closeModal()};render();
 </script>
