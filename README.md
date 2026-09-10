@@ -1,6 +1,29 @@
-# Binjo Alarm
+# MEDISEARCH
 
-A fresh alarm application replacing the previous MediSearch prototype. Users set alarms, the alarm rings at the scheduled time, and the intended production flow is to stop it after a verified KSh 10 M-Pesa payment.
+MEDISEARCH is a mobile-first movie and series discovery app built around legally reusable entertainment sources.
 
-## Important
-The current frontend deliberately does not claim a payment succeeded. M-Pesa server-side verification is the next implementation step.
+## Content policy
+
+The application is designed for:
+
+- Public-domain films
+- Creative Commons/openly licensed works
+- Independent works with distribution permission
+- Officially free/licensed catalogs
+
+Each title must be checked for the applicable license and territorial restrictions before direct playback or redistribution.
+
+## Current features
+
+- Responsive streaming-style interface
+- Search and genre filtering
+- My List saved in the browser
+- Continue Watching foundation
+- PWA installation support
+- Offline shell caching
+- Official-source launch buttons
+- GitHub Pages deployment
+
+## Development
+
+This version intentionally uses a static frontend so it can deploy cleanly to GitHub Pages. A future backend can add accounts, synchronized watchlists, playback progress, moderation, and a verified content-management system.
