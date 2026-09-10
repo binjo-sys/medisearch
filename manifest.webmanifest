@@ -1,0 +1,12 @@
+{
+  "name": "MEDISEARCH — Movies & Series",
+  "short_name": "MEDISEARCH",
+  "description": "A mobile-first discovery app for free and legally available movies and series.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#080a10",
+  "theme_color": "#080a10",
+  "orientation": "portrait-primary",
+  "icons": []
+}
