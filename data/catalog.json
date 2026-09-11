@@ -13,6 +13,45 @@
     "mediaUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/0a/The_Invaders_%281912%29.webm/The_Invaders_%281912%29.webm.360p.vp9.webm"
   },
   {
+    "id": "work-1915",
+    "title": "Work",
+    "year": 1915,
+    "type": "movie",
+    "genre": "Comedy",
+    "description": "Charlie Chaplin's American silent comedy film.",
+    "duration": 1453,
+    "license": "Public domain in the United States",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Work_(1915).webm",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Work_(1915).webm",
+    "mediaUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/aa/Work_%281915%29.webm/Work_%281915%29.webm.360p.vp9.webm"
+  },
+  {
+    "id": "battle-of-somme-1916",
+    "title": "The Battle of the Somme",
+    "year": 1916,
+    "type": "movie",
+    "genre": "Documentary",
+    "description": "A British World War I documentary and propaganda film.",
+    "duration": 4372,
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:The_Battle_of_the_Somme_(1916).webm",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Battle_of_the_Somme_(1916).webm",
+    "mediaUrl": "https://upload.wikimedia.org/wikipedia/commons/3/31/The_Battle_of_the_Somme_%281916%29.webm"
+  },
+  {
+    "id": "daddy-long-legs-1919",
+    "title": "Daddy-Long-Legs",
+    "year": 1919,
+    "type": "movie",
+    "genre": "Drama",
+    "description": "A silent comedy-drama starring Mary Pickford.",
+    "duration": 5049,
+    "license": "Public domain in the United States",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Daddy-Long-Legs_(film,_1919).webm",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Daddy-Long-Legs_(film,_1919).webm",
+    "mediaUrl": ""
+  },
+  {
     "id": "blacksmith-scene-1893",
     "title": "Blacksmith Scene",
     "year": 1893,
